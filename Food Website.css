@@ -1,0 +1,619 @@
+/*Logo*/
+.logo{
+    height: 10%;
+    width: 10%;
+    min-width: 136.79px;
+    min-height: 110.8px;
+}
+
+/*h1*/
+.first{
+    text-align: center;
+    text-decoration: underline;
+    width: 100vw;
+    margin-top: -8px;
+    margin-left: 0;
+}
+
+a{
+    color: black;
+}
+
+/*Page Heading*/
+.title{
+    font-size: 80px;
+    margin-top: 0;
+    width: 100%;
+}
+
+/*-----------------------------Navigation Bar----------------------------*/
+nav{
+    top: 0;
+    /* border: 1px solid; */
+    display: inline-flex;
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Left nav */
+nav .leftnav{
+    list-style-type: none;
+    display: inline-flex;
+    float: left;
+    left: -1%;
+    border: 1px solid rgb(118, 118, 118);
+    margin-top: 30px;
+    padding-inline-start: 0px;
+}
+
+nav .leftnav li{
+    padding: 5px 10px 5px 0px;
+    margin: 5px 25px 5px 25px;
+
+}
+
+nav .leftnav:first-child{
+    padding-left: 0;
+}
+
+nav .leftnav li a{
+    padding: 5px 5px 5px 5px;
+    font-size: larger;
+}
+
+nav .leftnav li a:hover{
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+}
+
+/* Right nav */
+nav .rightnav{
+    list-style-type: none;
+    display: inline-flex;
+    position: absolute;
+    right: 2.5%;
+    margin-top: 30px;
+    border: 1px solid rgb(118, 118, 118);
+    padding-inline-start: 0px;
+}
+
+nav .rightnav li{
+    padding: 5px 10px 5px 0px;
+    margin: 5px 12.5px 5px 25px;
+ 
+}
+
+nav .rightnav:first-child{
+    margin-left: 0px;
+}
+
+nav .rightnav li a{
+    padding: 5px 5px 5px 5px;
+    font-size: larger;
+    /* border: 1px solid rgb(118, 118, 118);
+    border-radius: 1em; */
+}
+
+
+nav .rightnav li a:hover{
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+}
+
+.rightnav li .login:nth-child(1):hover{
+    background-color: yellow;
+    border-color: black 1px ;
+    border-radius: 1em; 
+    color: black;
+}
+
+/*-----------------------Main--------------------------*/
+main{
+    margin-top: -2em;
+}
+
+video{
+
+ position: absolute;
+ left: 15%;
+ top: 20%;
+ min-width: 523.766px;
+ height: 79vh;
+ z-index: -100;
+ 
+}
+
+.intro{
+text-align: center;
+position: flex;
+transform: translateY(25%);
+color: whitesmoke;
+z-index: 2;
+font-size: 2em;
+}
+
+.intro h1{    
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-decoration: underline white;
+    margin-bottom: 0px;
+}
+
+.p1{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* Order Button */
+.button{
+    position: flex;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    border-radius: 0.5em;
+    border-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:active{
+    background-color: rgb(133, 237, 255);
+    outline: gold thick;
+}
+
+/* --------------------Below the Fold------------------------ */
+.belowfold{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center; 
+    font-size: 1.5em;
+}
+ .belowfold h1{
+     text-decoration: underline
+     ;
+ }
+
+ /*----------Images---------- */
+ images{
+     display: grid;
+ }
+ /* Img1 */
+ .img1{
+     position: absolute;
+     border: 1px solid;
+     border-radius: 2em;
+     top: 133%;
+     left: 10%;
+     display: inline-flex;
+     overflow: hidden;
+     width: 500px;
+     height: 375px;
+}
+
+.img1text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.img1text:hover{
+    color: white;
+}
+
+/* Img2 */
+.img2{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    top: 133%;
+    right: 10%;
+    display: inline-flex;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+}
+
+.img2text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.img2text:hover{
+    color: white;
+}
+
+/* Image 3 */
+.img3{
+position: absolute;
+border: 1px solid; 
+border-radius: 2em;
+top: 193%;
+left: 10%;
+overflow: hidden;
+width: 500px;
+height: 375px;
+display: inline-flex;
+}
+
+.real-img3{
+    z-index: -100;
+    width: 500px;
+    height: 375px;
+}
+
+.img3text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.img3text:hover{
+    color: white;
+}
+
+/* Image 4 */
+.img4{
+    position: absolute;
+    border: 1px solid; 
+    border-radius: 2em;
+    top: 193%;
+    right: 10%;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+    display: inline-flex;
+    }
+    
+.real-img4{
+    z-index: -100;
+    width: 500px;
+    height: 375px;
+}
+
+.img4text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.img4text:hover{
+    color: white;
+}
+
+/* -------------------About us--------------------- */
+.about-us{
+    position: absolute;
+    bottom: -175%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.about-us h1{
+    text-decoration: underline;
+}
+/* -------------------Footer-------------------- */
+footer{
+    position: absolute;
+    border-top: 1px solid;
+    bottom: -200%;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.whyte{
+    position: absolute;
+    top: 65%;
+    left: 48.1%;
+}
+.contactdetails{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+.contactdetails p{
+    margin-bottom: 0;
+}
+
+.contactdetails .email{
+    margin-top: 0;
+}
+
+.socialmedia{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    margin-top: 0;
+}
+
+.socialmedia h2{
+    margin-top: 0;
+}
+.facebook{
+    display: inline;
+}
+
+.twitter{
+    display: inline;
+}
+
+.instagram{
+    display: inline;
+}
+
+/* ------------------------Menu----------------------------- */
+.menu{
+    position: absolute;
+    top: -2%;
+    font-size: 5em;
+    text-decoration: underline;
+}
+/* Menu Navigation Bar */
+.menunav{
+    list-style-type: none;
+    display: inline-flex;
+    position: absolute;
+    right: 40px;
+    margin-top: 30px;
+    border: 1px solid rgb(118, 118, 118);
+    padding-inline-start: 0px;
+}
+
+.menunav li{
+    padding: 5px 10px 5px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+.menunav li a{
+    padding: 5px 5px 5px 5px;
+    font-size: larger;
+}
+
+.menunav li a:hover{
+    background-color: black;
+    border-radius: 1em;
+    color: white;
+}
+.username{
+    position: absolute;
+    left: 75%;
+}
+
+.username img{
+    position: absolute;
+    top: -30px;
+    right: 15px;
+}
+.namelink{
+    position: absolute;
+    top: -30px;
+    right: 55px;
+}
+
+/* Menu Image 1 */
+.menu-img1{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    left: 11%;
+    display: inline-flex;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+}
+
+.menu-img1text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.menu-img1text a{
+    color: white;
+}
+
+/* Menu Image 2 */
+.menu-img2{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    right: 11%;
+    display: inline-flex;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+}
+
+.menu-img2text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.menu-img2text a:hover{
+    color: white;
+}
+
+/* Menu Image 3 */
+.menu-img3{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.menu-img3-img{
+    width: 1052px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.menu-img3text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 1000px;
+}
+
+.menu-img3text a:hover{
+    color: white;
+}
+
+/* Menu Image 4 */
+.menu-img4{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    top: 155%;
+    left: 11%;
+    display: inline-flex;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+}
+
+.menu-img4-img{
+    width: 500px;
+    height: 375px;
+    object-fit:cover;
+}
+
+.menu-img4text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.menu-img4text a:hover{
+    color: white;
+}
+
+/* Menu Image 5 */
+.menu-img5{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    top: 155%;
+    right: 11%;
+    display: inline-flex;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+}
+
+.menu-img5-img{
+    width: 500px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.menu-img5text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.menu-img5text a:hover{
+    color: white;
+}
+
+/* Menu Image 6 */
+.menu-img6{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 2em;
+    top: 219%;
+    left: 11%;
+    display: inline-flex;
+    overflow: hidden;
+    width: 500px;
+    height: 375px;
+}
+
+.menu-img6-img{
+    width: 500px;
+    height: 375px;
+    object-fit: cover;
+}
+
+.menu-img6text{
+    font-size: 2em;
+    position: absolute;
+    top: 70%;
+    width: 500px;
+}
+
+.menu-img6text a:hover{
+    color: white;
+}
+
+.username{
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
+
+.username h2{
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 6px;
+    left: 40px;
+}
+
+/* Specific Food Group Images */
+.specific{
+display: inline-flex;
+width: 500px;
+height: 500px;
+margin-right: 50px;
+margin-bottom: 50px;
+border: 1px solid;
+border-radius: 2em;
+overflow: hidden;
+}
+
+.specific-img{
+    width: 500px;
+    height: 375px;
+    object-fit:cover;
+}
+
+
+.specific div h2{
+    font-size: 2em;
+    margin-bottom: 0;
+    bottom: -90px;
+}
+
+.specific div p{
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+

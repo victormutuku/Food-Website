@@ -1,0 +1,68 @@
+/*Logo*/
+.logo{
+    height: 10%;
+    width: 10%;
+    min-width: 136.79px;
+    min-height: 110.8px;
+}
+
+.title{
+    font-size: 80px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    width: 100vw;
+    margin-top: -8px;
+    margin-left: 0;
+}
+
+a{
+    color: black;
+}
+
+form{
+    display: inline;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 5em 0 5em;
+    border: 1px solid;
+}
+
+.loginform{
+    display: inline;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 5em 0 5em;
+    border: 1px solid;
+}
+form h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+form div{
+    margin: 5px 0 5px 0;
+    padding: 7px 0 7px 0;
+}
+
+.loginform div{
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+}
+form input{
+    border-radius: 1px solid;
+}
+
+/*------------------- Image Upload ---------------------*/
+.upload-image{
+    text-decoration: underline;
+}
