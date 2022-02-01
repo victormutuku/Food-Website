@@ -8,12 +8,12 @@
     <body>
         <header>
             <div class="first">
-                <h1 class="title"><a href="Food Website.php">家庭 <img src="images/Food Website Logo.png" class="logo" >料理</a></h1>
+                <h1 class="title"><a href="index.php">家庭 <img src="images/Food Website Logo.png" class="logo" >料理</a></h1>
             </div>
             <div>
             <nav>
                 <ul class="leftnav"> 
-                    <li><a href="Food Website.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="Menu.php">Menu</a></li>
                     <li><a href="#">Merchandise</a></li>
                 </ul>

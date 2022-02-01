@@ -19,7 +19,7 @@ if(isset($_POST['button'])){
     if(mysqli_fetch_assoc($result)){
         $_SESSION['User'] = $email;
         $sess = session_id();
-        $fetched =getData($view);
+        $fetched = getData($view);
         foreach ($fetched as $key => $value) {
             echo $userid = $value["User_ID"];
             echo $fname = $value["First_Name"];
@@ -31,7 +31,7 @@ if(isset($_POST['button'])){
     }else if($row = mysqli_fetch_assoc($result1)){
         $_SESSION['User'] = $email;
         $sess = session_id();
-        $fetched =getData($viewsub);
+        $fetched = getData($viewsub);
         foreach ($fetched as $key => $value) {
             echo $userid = $value["User_ID"];
             echo $fname = $value["First_Name"];
