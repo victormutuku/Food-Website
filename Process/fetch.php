@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../Database/connect.php");
 
 if(isset($_POST["button"])){
 
@@ -11,6 +11,6 @@ if(isset($_POST["button"])){
     $insert = "INSERT INTO new(First_Name,Last_Name,Email_address,passw)VALUES('$FirstName','$LastName','$Email','$password')";
 
     setData($insert);
-    header("location:Menu.php");
+    header("location:../Pages/Menu.php");
 }
 ?>

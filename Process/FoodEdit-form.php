@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../Database/connect.php");
 $id = $_GET['GETID'];
 $result = "SELECT * FROM fooditems WHERE food_id ='".$id."'";
 $answer = mysqli_query(connect(),$result);

@@ -29,7 +29,7 @@
         </script>
     </head>
     <body>
-        <h1 class="title"><a href="Food Website.html">家庭 <img src="Food Website Logo.png" class="logo" >料理</a></h1>
+    <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
         <form action="fetch.php" method="POST" onsubmit = "return checkup()">
                 <h1>Sign up</h1>
                 <div class="form"> 
@@ -59,7 +59,7 @@
                         <button type="submit" name="button">Sign Up</button>
                         <br>
                     </div>
-                    <p>Already a member? <a href="Login form.php">Log in</a></p>
+                    <p>Already a member? <a href="../Login/Login form.php">Log in</a></p>
                 </div>
         </form>
     </body>

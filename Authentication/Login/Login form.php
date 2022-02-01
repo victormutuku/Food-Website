@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="Signup & Login.css" type="text/css">
     </head>
     <body>
-        <h1 class="title"><a href="Food Website.html">家庭 <img src="Food Website Logo.png" class="logo" >料理</a></h1>
+        <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
         <form action="login_session.php" method="POST" class="loginform">
                 <h1>Welcome</h1>|
                 <div>
@@ -22,7 +22,7 @@
                         <button type="submit" name="button" >Log in</button>
                         <br>
                     </div>
-                    <p> Not a member? <a href="Signupform.php">Sign up</a></p>
+                    <p> Not a member? <a href="../SignUp/Signupform.php">Sign up</a></p>
                 </div>
         </form>
     </body>

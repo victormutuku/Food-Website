@@ -1,5 +1,5 @@
 <?php
-require_once('connect.php');
+require_once('../Database/connect.php');
 
 if (isset($_POST["submitImage"])){
     $food_group = $_POST['Food_Group'];

@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../Database/connect.php");
 if(isset($_POST['edit'])){
     $id = $_GET['ID'];
     $food_group = $_POST['food_category'];

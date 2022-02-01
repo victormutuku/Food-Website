@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../Database/connect.php");
 
 $select = "SELECT * FROM fooditems  WHERE food_category = 'Unagi'";
 $fetchedunagi = getData($select);

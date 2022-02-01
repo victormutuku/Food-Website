@@ -1,10 +1,5 @@
 /*Logo*/
-.logo{
-    height: 10%;
-    width: 10%;
-    min-width: 136.79px;
-    min-height: 110.8px;
-}
+
 
 /*h1*/
 .first{
@@ -13,18 +8,12 @@
     width: 100vw;
     margin-top: -8px;
     margin-left: 0;
+    z-index: -5;
 }
-
-a{
-    color: black;
-}
-
-/*Page Heading*/
-.title{
-    font-size: 80px;
-    margin-top: 0;
-    width: 100%;
-}
+ .first a img {
+     width: 476.78px;
+     z-index: -5;
+ }
 
 /*-----------------------------Navigation Bar----------------------------*/
 nav{
@@ -48,8 +37,8 @@ nav .leftnav{
     display: inline-flex;
     float: left;
     left: -1%;
-    border: 1px solid rgb(118, 118, 118);
-    margin-top: 30px;
+    /* border: 1px solid rgb(118, 118, 118); */
+    margin-top: 20px;
     padding-inline-start: 0px;
 }
 
@@ -80,8 +69,8 @@ nav .rightnav{
     display: inline-flex;
     position: absolute;
     right: 2.5%;
-    margin-top: 30px;
-    border: 1px solid rgb(118, 118, 118);
+    margin-top: 20px;
+    /* border: 1px solid rgb(118, 118, 118); */
     padding-inline-start: 0px;
 }
 
@@ -121,14 +110,18 @@ main{
     margin-top: -2em;
 }
 
-video{
+.video-container{
+    border-radius: 2em;
+}
 
+video{
  position: absolute;
  left: 15%;
- top: 20%;
+ top: 22%;
  min-width: 523.766px;
  height: 79vh;
  z-index: -100;
+ border-radius: 2em;
  
 }
 

@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="first">
-                <h1 class="title"><a href="Food Website.html">家庭 <img src="images/Food Website Logo.png" class="logo" >料理</a></h1>       
+                <h1 class="title"><a href="../Pages/index.php">家庭 <img src="images/Food Website Logo.png" class="logo" >料理</a></h1>       
         </div>
         <form action="process_upload.php" method="POST" enctype="multipart/form-data">
             <h1 class="upload-image">Upload Image:</h1>

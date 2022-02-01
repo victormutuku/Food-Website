@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("connect.php");
+require_once("../Database/connect.php");
 
 $selected_id = $_GET['GETID'];
 $select = "SELECT food_id, fooditem, foodprice FROM fooditems WHERE food_id= '".$selected_id."'";

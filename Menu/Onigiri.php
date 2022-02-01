@@ -3,19 +3,19 @@
 <head>
         <meta charset="utf-8">
         <title>Food Website</title>
-        <link rel="stylesheet" href="Food Website.css" type="text/css">
+        <link rel="stylesheet" href="../Assets/css/index.css" type="text/css">
     </head>
     <body>
         <div class="first">
-            <h1 class="title"><a href="Food Website.html">家庭 <img src="images/Food Website Logo.png" class="logo" >料理</a></h1>
-            <a href="Menu.php"><h1 class="menu">Onigiri:</h1></a>
+        <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
+            <a href="../Pages/Menu.php"><h1 class="menu">Onigiri:</h1></a>
             <?php
-                require_once("selectstmt-session.php");
+                require_once("../Process/selectstmt-session.php");
                 foreach ($fetched2 as $key => $value) {
             ?>
             
             <div class="username">
-                <img src="images/user-icon-removebg.png" height="40px" width="40px">
+                <img src="../images/user-icon-removebg.png" height="40px" width="40px">
                 <a href="#" class="namelink">        
                     <h2>
                         <?php echo $value["First_Name"]?>
@@ -28,7 +28,7 @@
             ?>    
             <div class="images">
                 <?php
-                    require_once("image_fetch.php");
+                    require_once("../Process/image_fetch.php");
                     foreach($fetchedonigiri as $key => $value){
                 ?>
                 <div class="specific">
@@ -36,7 +36,7 @@
                         <img src="<?php echo $value["imagepathname"]?>" class="specific-img">
                         <a href=""><h2><?php echo $value["fooditem"]?></h2></a>
                         <p>Kshs: <?php echo $value["foodprice"]?></p>
-                        <a href=FoodEdit-form.php?GETID=<?php echo $value["food_id"]?> id="edit">Edit</a>=
+                        <a href=../Process/FoodEdit-form.php?GETID=<?php echo $value["food_id"]?> id="edit">Edit</a>=
                     </div>
                 </div>
                 <?php

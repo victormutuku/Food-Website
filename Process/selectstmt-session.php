@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../Database/connect.php");
 
     $link = connect();
     session_start();
