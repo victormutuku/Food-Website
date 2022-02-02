@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="first">
-        <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
+            <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
             <a href="../Pages/Menu.php"><h1 class="menu">Onigiri:</h1></a>
             <?php
                 require_once("../Process/selectstmt-session.php");

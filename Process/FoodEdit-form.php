@@ -15,12 +15,12 @@ while($row = mysqli_fetch_assoc($answer)){
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="Signup & Login.css" type="text/css">
+        <link rel="stylesheet" href="../Assets/cssLogin.css" type="text/css">
         <title>Upload Image</title>
     </head>
     <body>
         <div class="first">
-                <h1 class="title"><a href="Food Website.html">家庭 <img src="images/Food Website Logo.png" class="logo" >料理</a></h1>       
+            <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
         </div>
         <form action="ImageUpdate.php?ID=<?php echo $id ?>" method="POST" enctype="multipart/form-data">
             <h1 class="upload-image">Upload Image:</h1>

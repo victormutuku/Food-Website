@@ -11,12 +11,12 @@ if(isset($_POST['edit'])){
     $result = mysqli_query(connect(),$set);
 
     if($result){
-        header("location:Menu.php");
+        header("location:../Pages/Menu.php");
     }else{
         echo "Please Check your Query.";
     }
 }
 else{
-    header("location:Menu.php");
+    header("location:../Pages/Menu.php");
 } 
 ?>

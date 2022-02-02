@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Sign up</title>
-        <link rel="stylesheet" href="Signup form.css" type="text/css">
+        <link rel="stylesheet" href="../../Assets/css/Signup form.css" type="text/css">
         <script>
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
@@ -29,8 +29,8 @@
         </script>
     </head>
     <body>
-    <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
-        <form action="fetch.php" method="POST" onsubmit = "return checkup()">
+    <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
+        <form action="../../Process/fetch.php" method="POST" onsubmit = "return checkup()">
                 <h1>Sign up</h1>
                 <div class="form"> 
                     <div>

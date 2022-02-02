@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../../Database/connect.php");
 
 if (isset($_GET['page'])){
   $page = $_GET['page'];
@@ -17,10 +17,10 @@ if (isset($_GET['page'])){
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale = 1.0">
         <title>View Users</title>
-        <link rel="stylesheet" href="ViewUsers.css" type="text/css">
+        <link rel="stylesheet" href="../../Assets/css/ViewUsers.css" type="text/css">
     </head>
     <body>
-    <h1 class="title"><a href="Food Website.html">家庭 <img src="Food Website Logo.png" class="logo" >料理</a></h1>
+    <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
     <h1 class="users">Users:</h1>
     <div>
             <nav>
@@ -28,7 +28,7 @@ if (isset($_GET['page'])){
                     <li><a href="Menu.php">Menu</a></li>
                     <li><a href="#">Merchandise</a></li>
                     <li><a href="upload_image.php">Upload</a></li>
-                    <li><a href="Log_out.php?logout" class="logout">Log Out</a></li>
+                    <li><a href="../../Authentication/Log_out.php?logout" class="logout">Log Out</a></li>
                 </ul>
             </nav>
     </div> 
@@ -45,7 +45,7 @@ if (isset($_GET['page'])){
             </thead>
           <tbody>
               <?php
-                require_once("selectstmt-sub.php");
+                require_once("../../Process/selectstmt-sub.php");
                 foreach ($fetched as $key => $value) {
               ?>
               <tr>

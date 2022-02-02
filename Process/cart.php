@@ -19,7 +19,7 @@ setData($insert);
 
 ?>
 <?php
-require_once("connect.php");
+require_once("../Database/connect.php");
 
 if (isset($_GET['page'])){
   $page = $_GET['page'];
@@ -37,10 +37,10 @@ if (isset($_GET['page'])){
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale = 1.0">
         <title>View All Users</title>
-        <link rel="stylesheet" href="ViewUsers.css" type="text/css">
+        <link rel="stylesheet" href="../Assets/css/ViewUsers.css" type="text/css">
     </head>
     <body>
-    <h1 class="title"><a href="Food Website.html">家庭 <img src="Food Website Logo.png" class="logo" >料理</a></h1>
+    <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
     <h1 class="allusers">Cart:</h1> 
     <div>
             <nav>

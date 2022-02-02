@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Login</title>
-        <link rel="stylesheet" href="Signup & Login.css" type="text/css">
+        <link rel="stylesheet" href="../../Assets/css/Login.css" type="text/css">
     </head>
     <body>
-        <a href="../Pages/index.php"><img src="../Assets/web_logo_bold.svg"></a>
+        <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
         <form action="login_session.php" method="POST" class="loginform">
                 <h1>Welcome</h1>|
                 <div>

@@ -1,5 +1,5 @@
 <?php
-require_once("connect.php");
+require_once("../../Database/connect.php");
 $id = $_GET['GETID'];
 $result = "SELECT * FROM new WHERE User_ID ='".$id."'";
 $answer = mysqli_query(connect(),$result);
@@ -17,10 +17,10 @@ while($row = mysqli_fetch_assoc($answer)){
     <head>
         <meta charset="utf-8">
         <title>Update Records</title>
-        <link rel="stylesheet" href="Signup form.css" type="text/css">
+        <link rel="stylesheet" href="../../Assets/css/Signup form.css" type="text/css">
     </head>
     <body>
-        <h1 class="title"><a href="Food Website.html">家庭 <img src="Food Website Logo.png" class="logo" >料理</a></h1>
+        <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
         <form action="AdminUpdate.php?ID=<?php echo $id ?>" method="POST">
                 <h1>Update Records</h1>
                 <div class="form">

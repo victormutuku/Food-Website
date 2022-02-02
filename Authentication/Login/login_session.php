@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once("../Database/connect.php");
+require_once("../../Database/connect.php");
 
 if(isset($_POST['button'])){ 
     $email = $_POST['Email'];
@@ -27,7 +27,7 @@ if(isset($_POST['button'])){
         }
         $insert = "INSERT INTO login_session_data(User_ID,First_Name,Privilege,Session_ID)VALUES('$userid','$fname','$priv','$sess') ";
         setData($insert);
-        header("location:../Administrative/Main/ViewUsers-Admin.php");
+        header("location:../../Administrative/Main/ViewUsers-Admin.php");
     }else if($row = mysqli_fetch_assoc($result1)){
         $_SESSION['User'] = $email;
         $sess = session_id();
@@ -39,7 +39,7 @@ if(isset($_POST['button'])){
         }
         $insert = "INSERT INTO login_session_data(User_ID,First_Name,Privilege,Session_ID)VALUES('$userid','$fname','$priv','$sess') ";
         setData($insert);
-        header("location:../Administrative/Sub/ViewUsers-Sub.php");
+        header("location:../../Administrative/Sub/ViewUsers-Sub.php");
     }else if(mysqli_fetch_assoc($result2)){
         $_SESSION['User'] = $email;
         $sess = session_id();
@@ -51,9 +51,9 @@ if(isset($_POST['button'])){
         }
         $insert = "INSERT INTO login_session_data(User_ID,First_Name,Privilege,Session_ID)VALUES('$userid','$fname','$priv','$sess') ";
         setData($insert);
-        header("location:../Pages/Menu.php");
+        header("location:../../Pages/Menu.php");
     }else{
-        header("location:../Authentication/Login/Login form.php?Absent=Please enter correct email and password"); 
+        header("location:../../Authentication/Login/Login form.php?Absent=Please enter correct email and password"); 
     }  
 }
 ?> 

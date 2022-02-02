@@ -2,8 +2,8 @@
 session_start();
 if(isset($_GET['logout'])){
     session_destroy();
-    header("location:Food Website.html");
+    header("location:../Pages/index.php");
 }else{
-    header("location:Food Website.html");
+    header("location:../Pages/index.php");
 }
 ?>
