@@ -17,12 +17,7 @@
 
 /*-----------------------------Navigation Bar----------------------------*/
 nav{
-    top: 0;
-    /* border: 1px solid; */
-    display: inline-flex;
-    position: absolute;
-    top: 3em;
-    left: 1em;
+    display: inline;
     width: 100vw;
 }
 
@@ -31,81 +26,47 @@ a{
     color: black;
 }
 
-/* Left nav */
-nav .leftnav{
+.navbar{
     list-style-type: none;
-    display: inline-flex;
-    float: left;
-    left: -1%;
-    /* border: 1px solid rgb(118, 118, 118); */
-    margin-top: 20px;
-    padding-inline-start: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
-nav .leftnav li{
-    padding: 5px 10px 5px 0px;
+.navbar li{
+    padding: 10px 10px 10px 10px;
     margin: 5px 25px 5px 25px;
-
+    width: 100px;
+    margin-top: 30px;
+    font-size: x-large;
 }
 
-nav .leftnav:first-child{
+.navbar:first-child{
     padding-left: 0;
 }
 
-nav .leftnav li a{
+.navbar li a{
     padding: 5px 5px 5px 5px;
     font-size: larger;
 }
 
-nav .leftnav li a:hover{
+.navbar li a:hover{
     background-color: black;
+    padding: 10px 12px 10px 12px;
     border-radius: 1em;
     color: white;
-}
-
-/* Right nav */
-nav .rightnav{
-    list-style-type: none;
-    display: inline-flex;
-    position: absolute;
-    right: 2.5%;
-    margin-top: 20px;
-    /* border: 1px solid rgb(118, 118, 118); */
-    padding-inline-start: 0px;
-}
-
-nav .rightnav li{
-    padding: 5px 10px 5px 0px;
-    margin: 5px 12.5px 5px 25px;
- 
-}
-
-nav .rightnav:first-child{
-    margin-left: 0px;
-}
-
-nav .rightnav li a{
-    padding: 5px 5px 5px 5px;
-    font-size: larger;
-    /* border: 1px solid rgb(118, 118, 118);
-    border-radius: 1em; */
-}
-
-
-nav .rightnav li a:hover{
-    background-color: black;
-    border-radius: 1em;
-    color: white;
-}
-
-.rightnav li .login:nth-child(1):hover{
-    background-color: yellow;
-    border-color: black 1px ;
-    border-radius: 1em; 
-    color: black;
 }
 
 /*-----------------------Main--------------------------*/
+
+.logo{
+    display: inline;
+    position: absolute;
+    height: 800px;
+    top: -50px;
+    left: -25px;
+}
+
 main{
     margin-top: -2em;
 }

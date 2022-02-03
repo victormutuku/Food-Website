@@ -6,9 +6,11 @@
         <link rel="stylesheet" href="../../Assets/css/Login.css" type="text/css">
     </head>
     <body>
-        <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
+        <div class="first">
+            <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
+        </div>
         <form action="login_session.php" method="POST" class="loginform">
-                <h1>Welcome</h1>|
+                <h1>Login</h1>
                 <div>
                     <div>
                         <input type="email" id="Email" name="Email" placeholder="Email" required>

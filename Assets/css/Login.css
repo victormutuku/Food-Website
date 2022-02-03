@@ -1,10 +1,17 @@
 /*Logo*/
-.logo{
-    height: 10%;
-    width: 10%;
-    min-width: 136.79px;
-    min-height: 110.8px;
+.first{
+    text-align: center;
+    text-decoration: underline;
+    width: 100vw;
+    margin-top: -8px;
+    margin-left: 0;
+    z-index: -5;
 }
+
+.first a img {
+    width: 476.78px;
+    z-index: -5;
+ }
 
 .title{
     font-size: 80px;

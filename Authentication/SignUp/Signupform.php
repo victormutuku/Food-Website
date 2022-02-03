@@ -29,7 +29,9 @@
         </script>
     </head>
     <body>
-    <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
+        <div class="first">
+            <a href="../../Pages/index.php"><img src="../../Assets/web_logo_bold.svg"></a>
+        </div>
         <form action="../../Process/fetch.php" method="POST" onsubmit = "return checkup()">
                 <h1>Sign up</h1>
                 <div class="form"> 

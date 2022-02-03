@@ -7,27 +7,21 @@
     </head>
     <body>
         <header>
-            <div class="first">
-                <a href="index.php"><img src="../Assets/web_logo_bold.svg"></a>
-            </div>
             <div>
-            <nav>
-                <ul class="leftnav"> 
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="Menu.php">Menu</a></li>
-                    <li><a href="#">Merchandise</a></li>
-                </ul>
-                <ul class="rightnav">
-                    <!-- Get baack to this. The login button should hover yellow -->
-                    <li><a href="../Authentication/Login/Login form.php" class="login">Login</a></li>
-                    <li><a href="#about-us">About</a></li>
-                    <li><a href="#footer">Contact Us</a></li>
-        
-                </ul>
-            </nav>
+                <nav>
+                    <ul class="navbar"> 
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="Menu.php">Menu</a></li>
+                        <li><a href="#">Merch</a></li>
+                        <li><a href="../Authentication/Login/Login form.php">Login</a></li>
+                    </ul>
+                </nav>
             </div> 
         </header> 
         <main>
+        
+                <img src="../Assets/vertical_logo.svg"class="logo">
+        
                 <div class="video-container">
                     <video autoplay loop preload="auto">
                     <source src="../images/video.mp4" type = "video/mp4">
